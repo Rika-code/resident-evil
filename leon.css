@@ -1,0 +1,176 @@
+*{
+margin: 0;
+padding: 1;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(font/Roboto-Regular.ttf);
+}
+
+nav.header{
+    display:flex;
+    justify-content: center;
+    font-family:"Roboto";
+    padding: 30px;
+    font-weight: bold;
+    
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+ul {
+    display: flex;
+    gap: 15px;
+}
+ul li {
+    display:inline-block;
+    list-style-type: none;
+
+}
+main {
+    background-image:url("IMG_1937.jpg");
+    padding: 12%;
+    background-repeat: no-repeat;
+    top:0;
+    left:0;
+}
+h1.classique{
+    font-family: "Roboto";
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+}
+
+h1.survivez{
+    font-family:"Roboto";
+    color: black;
+    margin-bottom: 2%;
+
+}
+body {
+    text-align: center;
+    
+}
+.p1{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 50px;
+}
+
+.btn{
+    background-color: red;
+    color: white;
+    padding: 15px;
+
+}
+
+
+.actu{
+    text-align: center;
+    font-family: "Roboto";
+    margin-top: 7%;
+   
+}
+.container{
+    display: flex;
+    justify-content: center;
+     margin-top: 2%;
+     height: 530px;
+     text-align: left;
+    
+}
+
+.container img {
+    width: 100%;
+    height :auto;
+}
+.monstres {
+    border:2px solid black;
+    background-color:rgb(32, 32, 32) ;
+    width : 20%;
+    font-family:"Roboto";
+    color: white;
+    margin-left: 10px ;
+}
+
+.maj{
+    border:2px solid black;
+    background-color:rgb(32, 32, 32) ;
+    width : 20%;
+    font-family:"Roboto";
+    color: white;
+    margin-left: 30px ;
+}
+
+.gameplay{
+    border:2px solid black;
+    background-color:rgb(32, 32, 32) ;
+    width : 20%;
+    font-family:"Roboto"; 
+    color: white;
+    margin-left: 30px ;
+}
+
+h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}   
+
+.prefooter{
+      display:flex;
+      justify-content: center;
+      font-family: "Roboto";
+      flex-direction: column;
+      font-weight: bold;
+      background-color: rgb(32, 32, 32) ;
+      color: white;
+      padding: 80px;
+      margin-top: 5%;
+}
+
+.btn2{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 46%;
+    margin-right: 46%;
+
+}
+
+#email{
+    text-align: center;
+
+}
+input[type="email"] {
+    border: 1px solid #999;
+    border-radius: 5px;
+    margin-left: 42%;
+    margin-right: 42%;
+    padding: 10px;
+    }
+
+    input::placeholder {
+        color: grey;
+      }
+      
+    .footer{
+        display:flex;
+        font-family:"Roboto";
+        padding: 10px;
+        background-color: black;
+        color: white;
+        height: 20px;
+    }
+
+    img.footer{  
+        width: 20px;
+        height: auto;
+          
+    }
+    .list {
+    margin-left: 40%;
+    }
